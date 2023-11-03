@@ -28,7 +28,7 @@ const playState = ref(false)
 const playGameOver = ref(true)
 const theGameOver = ref(false)
 // 子弹
-const allBullet = ref([{
+const allBullet = ref<any[]>([{
   x: 0,
   y: 0
 }]);
@@ -41,7 +41,7 @@ const bulletTimer = ref<any>(null)
 // 子弹数量计时器
 const bulletNumTimer = ref<any>(null)
 // 臭虫
-const allEnemy = ref([])
+const allEnemy = ref<any[]>([])
 // 臭虫速度
 const enemySpeed = ref(3)
 // 臭虫的出现间隔时间
@@ -176,6 +176,9 @@ const getWindowInfo = () => {
   }
 }
 
+const clearAll = ()=>{
+
+}
 
 </script>
 <style scoped lang="scss">
