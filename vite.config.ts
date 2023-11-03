@@ -9,7 +9,7 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
-  base: '/scrollerNumber/',
+  base: '/gamePlaneWar/',
   server: {
     open: '/',
     // host: '127.0.0.1'
