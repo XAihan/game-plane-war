@@ -9,5 +9,12 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
+  base: '/scrollerNumber/',
+  server: {
+    open: '/',
+    // host: '127.0.0.1'
+    // host: '10.205.96.245'
+  },
+  publicDir:'',
   plugins: [vue()],
 })
